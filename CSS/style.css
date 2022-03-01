@@ -5,14 +5,27 @@
     padding: 0px;
 }
 
+:root{
+    --cor0: #0024ff;
+    --cor1: #21A312;
+    --cor2: #FF000A;
+    --cor3: #FD6A02;
+    --cor4: #373435;
+    --cor5: #ECEBEB;
+    --cor6: #FFFFFF;
 
+
+
+}
 header{
-    background-color: rgb(236, 144, 32);
+    background-color: var(--cor3);
     padding-bottom: 10px; 
 }
 
 main{
-    background-color: rgba(204, 202, 202, 0.562);
+    background-color: var(--cor5);
+    max-width: 600px;
+    min-height: 600px;
     margin-left: 10px;
     margin-right: 10px;
 }
